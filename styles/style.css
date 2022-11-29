@@ -52,7 +52,7 @@
 .header__subtitle a{
   color:#2f80ed;
 }
-.header__main-illustration img {
+.header__main-illustration {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -149,7 +149,7 @@ min-width: 784px;
   position: relative;
   height: 890px;
   background-color: #f2f2f2;
-  background-image: url(/images/feynman.png); /*alt*/
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position:bottom left;
   background-size: 867px 637px;
@@ -207,6 +207,8 @@ min-width: 784px;
 }
 .kaufman__triangle {
   position:absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
   right: -210px;
   top: 0;
   width: 877px;
