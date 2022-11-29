@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 .header__subtitle a{
-  color:#2f80ed
+  color:#2f80ed;
 }
 .header__main-illustration img {
   position: absolute;
@@ -242,16 +242,14 @@ min-width: 784px;
   font-size: 18px;
   font-weight: normal;
 }
-.footer__column-links {
-  display: flex;
-  flex-direction: column;
-}
 .footer__column-heading {
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 600;
 }
 .footer__column-links {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 16px;
   font-weight: normal;
   font-size: 18px;
