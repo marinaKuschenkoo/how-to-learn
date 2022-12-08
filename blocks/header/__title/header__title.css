@@ -1,7 +1,7 @@
 .header__title {
   position: relative;
   max-width: 730px;
-  left: 64px;
+  margin-left: 64px;
   margin-top:auto;
   margin-bottom: auto;
   z-index:3;
